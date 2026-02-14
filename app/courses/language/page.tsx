@@ -17,7 +17,7 @@ export default function LanguagePage({ params }: Props) {
 
   return (
     <div>
-      <h1>{language.toUpperCase()} Topics</h1>
+      <h1>{params.language.toUpperCase()} Topics</h1>
 
       <ul>
         {languageTopics.map((topic) => (
